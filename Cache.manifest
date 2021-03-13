@@ -3,6 +3,7 @@ CACHE MANIFEST
 
 CACHE:
 702.js
+750.js
 common/exploit.js
 common/helpers.js
 common/malloc.js
@@ -15,9 +16,11 @@ ftp.html
 ftp.js
 index.html
 index702.html
+index750.html
 jb.html
 jb/c-code.js
 jb702/c-code.js
+jb750/c-code.js
 linux.html
 linux.js
 linux702-3gb.js
@@ -27,6 +30,7 @@ mira/c-code.js
 mira/mira.js
 mira/mira2.js
 mira702/c-code.js
+mira750/c-code.js
 mira702/mira.js
 mira702/mira2.js
 netcat.html
@@ -41,26 +45,12 @@ spoofer.js
 todex.html
 todex.js
 webkit-7.02/external/int64.js
-webkit-7.02/external/int64.js
-webkit-7.02/external/int64.js
-webkit-7.02/external/int64.js
-webkit-7.02/external/int64.js
-webkit-7.02/external/int64.js
-webkit-7.02/external/int64.js
-webkit-7.02/external/ps4.js
-webkit-7.02/external/ps4.js
-webkit-7.02/external/ps4.js
-webkit-7.02/external/ps4.js
-webkit-7.02/external/ps4.js
-webkit-7.02/external/ps4.js
 webkit-7.02/external/ps4.js
 webkit-7.02/external/utils.js
-webkit-7.02/external/utils.js
-webkit-7.02/external/utils.js
-webkit-7.02/external/utils.js
-webkit-7.02/external/utils.js
-webkit-7.02/external/utils.js
-webkit-7.02/external/utils.js
+webkit-7.50/external/int64.js
+webkit-7.50/external/ps4.js
+webkit-7.50/external/utils.js
+
 
 NETWORK:
 *
