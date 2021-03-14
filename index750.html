@@ -1,10 +1,26 @@
-<html>
+<html manifest="Cache750.manifest">
 
 <head>
     <meta charset="utf-8" />
-    <title>PS4 7.50 Jailbreak</title>
+    <title>PS4 7.55 Jailbreak By SleirsGoevy</title>
     <link rel="shortcut icon" href="favicon.ico"></link>
-</head>   
+</head>  
+<script>
+    window.applicationCache.ondownloading = function()
+    {
+        alert("Caching started !!")
+    };
+
+    window.applicationCache.onprogress = function(a)
+    {
+        document.getElementById("progress").innerHTML="<h3>Caching Status: "+(Math.round(100*(a.loaded/a.total)))+"% Completed</h3>";
+    };
+
+    window.applicationCache.oncached = window.applicationCache.onupdateready = function()
+    {
+        alert("Page Cached!!")
+    };
+</script> 
 <body>
     <script>
         document.cookie = 'kex=1';
@@ -28,7 +44,7 @@
     </p>
     <div id="english" class="language" style="display: block">
         <h3>READ THIS CAREFULLY BEFORE PROCEEDING</h3>
-        <p><b>In case you're dumb: this ONLY works on FW 7.50. If you are on 7.02 or lower, go <a href=".">here</a>. If you are on a
+        <p><b>In case you're dumb: this ONLY works on FW 7.55. If you are on 7.02 or lower, go <a href=".">here</a>. If you are on a
                 higher firmware (e.g. 8.03), your console CAN'T BE HACKED yet.</b></p>
         <ol>
             <li>Click on the link that says JB+MIRA or JB+HEN, depending on your personal habits. In about 20 seconds you'll get an
@@ -53,7 +69,7 @@
     </div>
     <div id="russian" class="language" style="display: none">
         <h3>ВНИМАТЕЛЬНО ПРОЧИТАЙТЕ ИНСТРУКЦИЮ ПРЕЖДЕ ЧЕМ ПРОДОЛЖАТЬ</h3>
-        <p><b>Для даунов: этот взлом работает ТОЛЬКО на прошивке 7.50. Если у вас прошивка 7.02 или ниже, вам <a href=".">сюда</a>. Если прошивка
+        <p><b>Для даунов: этот взлом работает ТОЛЬКО на прошивке 7.55. Если у вас прошивка 7.02 или ниже, вам <a href=".">сюда</a>. Если прошивка
                 выше, эту консоль взломать НЕ ПОЛУЧИТСЯ.</b></p>
         <ol>
             <li>Нажмите на ссылку &laquo;JB+MIRA&raquo; (или &laquo;JB+HEN&raquo;, что вам больше нравится). В течение приблизительно 20 секунд
@@ -78,7 +94,7 @@
     </div>
     <div id="spanish" class="language" style="display: none">
         <h3> LEA ESTO DETENIDAMENTE ANTES DE CONTINUAR </h3>
-        <p> <b> En caso de que seas tonto: esto SOLO funciona en FW 7.50. Si está en 7.02 o menos, vaya <a href="."> aquí </a>. Si estás en un
+        <p> <b> En caso de que seas tonto: esto SOLO funciona en FW 7.55. Si está en 7.02 o menos, vaya <a href="."> aquí </a>. Si estás en un
                 firmware superior (por ejemplo, 8.03), su consola NO PUEDE SER HACKEADA todavía. </b> </p>
         <ol>
             <li> Haga clic en el enlace que dice JB + MIRA o JB + HEN, según sus hábitos personales. En unos 20 segundos obtendrá un
@@ -98,7 +114,7 @@
         </ol>
         <p> <i> Este exploit <b> se congela </b> y se bloquea. A veces incluso tiene que volver a intentarlo 10 veces para obtener el
                 jailbreak. </i> </p>
-        <p> <i> Créditos: equipo de Synacktiv por el exploit WebKit, @theflow0 por el exploit del kernel. </i> </p>
+        <p> <i> Créditos: equipo de Synacktiv por el exploit WebKit, @theflow0 por el exploit del kernel. @ChendoChap and @Al-AZIF for 7.55 Patch Fixes </i> </p>
     </div>
 
 <a href="payload750.html#f=mira750/mira3.js">JB+MIRA</a>
