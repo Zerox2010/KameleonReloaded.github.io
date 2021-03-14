@@ -1,6 +1,6 @@
 # ps4jb
 
-This is Sleirsgoevy full chain exploit for PS4 firmware 6.72/7.02/7.50. Basically this is TheFlow's POC together with PS4-specific kROP & kernel patches. [Mira](https://github.com/OpenOrbis/mira-project) is used as a HEN payload.
+This is Sleirsgoevy full chain exploit for PS4 firmware 6.72/7.02/7.5X. Basically this is TheFlow's POC together with PS4-specific kROP & kernel patches. [Mira](https://github.com/OpenOrbis/mira-project) is used as a HEN payload.
 
 ## Building from source
 
