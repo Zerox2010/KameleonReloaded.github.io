@@ -13,7 +13,9 @@ netcat750.html
 payload750.html
 webkit-7.50/external/int64.js
 webkit-7.50/external/ps4.js
+webkit-7.50/external/ps4nc.js
 webkit-7.50/external/utils.js
+ftp.js
 
 
 NETWORK:

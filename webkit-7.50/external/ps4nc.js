@@ -116,7 +116,7 @@ function setupRW() {
 		die("[!] Failed to setup addrof/fakeobj primitives");
 	debug_log("[+] Succesfully got addrof/fakeobj");
 	debug_log("[+] PS4 Jailbreak Done!");
-	
+	debug_log("[+] Waiting for Payload on Netcat Port 9020!");
 
 	/* Getting code execution */
 	/* ... */
