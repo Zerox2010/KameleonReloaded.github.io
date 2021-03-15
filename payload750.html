@@ -36,10 +36,10 @@ window.midExploit = function()
     if(document.location.hash)
     {
         var s = decodeURIComponent(document.location.hash.substr(3));
-        preloadScripts(['750.js', 'jb750/c-code.js', 'mira750/mira3.js', s, 'mira750/c-code.js'], go);
+        preloadScripts(['750.js', 'jb750/c-code.js', 'mira750/mira.js', s, 'mira750/c-code.js'], go);
     }
     else
-        preloadScripts(['750.js', 'jb750/c-code.js', 'mira750/mira3.js', 'mira750/c-code.js'], go);
+        preloadScripts(['750.js', 'jb750/c-code.js', 'mira750/mira.js', 'mira750/c-code.js'], go);
 }
 
 window.postExploit = function()
